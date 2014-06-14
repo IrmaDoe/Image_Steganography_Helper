@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="2">
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="fileName: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_filename"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="filePath: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_filepath"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="fileSize: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_filesize"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Width: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_width"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Height: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_height"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="stegStat: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_stegstat"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="capacity: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_capacity"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="scretSize: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_secretsize"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+        
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="usageRate: "
+                android:padding="3dip"
+                android:gravity="right"
+                style="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/picinfo_tv_usagerate"
+                android:padding="3dip"
+                style="?android:attr/textAppearanceSmall" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

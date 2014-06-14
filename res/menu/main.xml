@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.hit.ict.ish.MainActivity" >
+    
+    <item
+        android:id="@+id/action_sharetoWX"
+        android:title="发送给微信朋友"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="always"
+        android:orderInCategory="1" />
+    
+    <item
+        android:id="@+id/action_showpicinfo"
+        android:title="图片详情"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="always"
+        android:orderInCategory="2" />
+    
+    <item
+        android:id="@+id/action_showFAQ"
+        android:title="FAQ"
+        android:orderInCategory="3" />
+    
+    <item
+        android:id="@+id/action_showabout"
+        android:title="关于"
+        android:orderInCategory="4" />
+
+</menu>
